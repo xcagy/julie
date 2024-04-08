@@ -14,7 +14,7 @@ try {
     $mail->Host       = 'https://email.seznam.cz/?i&c=compose';                       //gmail SMTP server set to send through
     $mail->SMTPAuth   = true;
     $mail->Username   = 'aguska9@seznam.cz';                     //SMTP username (your gmail account)
-    $mail->Password   = 'tonda12346';                               //SMTP password (your gmail password or app password)
+    $mail->Password   = '';                               //SMTP password (your gmail password or app password)
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port       = 465;
 
