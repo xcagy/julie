@@ -163,9 +163,9 @@ function drawText() {
         context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
 
         if (window.innerWidth < 600) {
-            drawTextWithLineBreaks(["snazim se byt pro tebe lepsi, ikdyz jsem kokot na komunikaci tak se snazim, protoze si to zaslouzis"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
+            drawTextWithLineBreaks(["jsem rada, ze tu pro tebe muzu byt"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
-            context.fillText("snazim se byt pro tebe lepsi, ikdyz jsem kokot na komunikaci tak se snazim, protoze si to zaslouzis", canvas.width/2, canvas.height/2);
+            context.fillText("jsem rada, ze tu pro tebe muzu byt", canvas.width/2, canvas.height/2);
         }
 
         opacity = opacity + 0.01;
@@ -174,9 +174,9 @@ function drawText() {
         context.fillStyle = `rgba(45, 45, 255, ${opacity})`;
 
         if (window.innerWidth < 600) {
-            drawTextWithLineBreaks(["snazim se byt pro tebe lepsi, ikdyz jsem kokot na komunikaci tak se snazim, protoze si to zaslouzis"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
+            drawTextWithLineBreaks(["jsem rada, ze tu pro tebe muzu byt"], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
-            context.fillText("snazim se byt pro tebe lepsi, ikdyz jsem kokot na komunikaci tak se snazim, protoze si to zaslouzis", canvas.width/2, canvas.height/2);
+            context.fillText("jsem rada, ze tu pro tebe muzu byt", canvas.width/2, canvas.height/2);
         }
         
         opacity = opacity - 0.01;
